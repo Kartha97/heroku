@@ -7,5 +7,5 @@ from  . controller import ControllerBase
 class AboutController(ControllerBase):
     @staticmethod
     def get():
-        name = "Kartha"
+        name = "about"
         return render_template('about.html', name=name)
