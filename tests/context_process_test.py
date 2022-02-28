@@ -5,7 +5,7 @@ def test_context_variables_environment(client):
     """This test checks if the environment is printed"""
     response = client.get("/")
     env = getenv('FLASK_ENV', None)
-    test_string = f"Environment: {name}"
+    test_string = f"This is { name } page"
     content = bytes(test_string, 'utf-8')
     assert response.status_code == 200
     assert content in response.data

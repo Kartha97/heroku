@@ -11,13 +11,13 @@ def test_request_index(client):
     """This makes the index page"""
     response = client.get("/")
     assert response.status_code == 200
-    assert b"This is Index Page" in response.data
+    assert b"This is Page" in response.data
 
 def test_request_about(client):
     """This makes the index page"""
     response = client.get("/about")
     assert response.status_code == 200
-    assert b"This is About Page" in response.data
+    assert b"This is Page" in response.data
 
 def test_request_page1(client):
     """This makes the index page"""
