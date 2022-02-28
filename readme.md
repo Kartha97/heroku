@@ -55,3 +55,6 @@ app/dyno.
 ## Screenshot of Running Program
 ![Index Page of our Program](screenshots/indexPage.png)
 ![About page ofour running program](screenshots/aboutPage.png)
+![Workflow Status](screenshots/workflowsSubmittedAndExecutedSucessfully.png)
+![Index Page after deploying into heroku app](screenshots/indexPageInsideHerokuApp.png)
+![About page after deploying into heroku app](screenshots/AboutPageInsideHerokuApp.png)
